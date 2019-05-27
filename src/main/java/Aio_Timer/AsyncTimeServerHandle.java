@@ -34,7 +34,7 @@ public class AsyncTimeServerHandle implements Runnable {
         latch = new CountDownLatch(1);
         doAccept();
         try {
-            latch.wait();
+            latch.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
