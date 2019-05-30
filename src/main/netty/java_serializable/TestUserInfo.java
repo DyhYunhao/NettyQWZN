@@ -1,4 +1,4 @@
-package serializable;
+package java_serializable;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

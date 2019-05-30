@@ -1,6 +1,4 @@
-package serializable;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
+package java_serializable;
 
 import java.io.Serializable;
 import java.nio.ByteBuffer;
@@ -12,7 +10,7 @@ import java.nio.ByteBuffer;
  * Description:
  */
 public class UserInfo implements Serializable {
-    private static final long serialVersionUid = 1L;
+    private static final long serialVersionUID = 1L;
 
     private String username;
     private int userId;
