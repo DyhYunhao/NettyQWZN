@@ -12,7 +12,7 @@ public class PStreamMain {
         new Thread(new Mutiply()).start();
         new Thread(new Div()).start();
 
-        for (int i = 1; i <= 1000; i ++){
+        for (int i = 1; i <= 10000; i ++){
             for (int j = 1; j <= 1000; j ++){
                 Msg msg = new Msg();
                 msg.i = i;
